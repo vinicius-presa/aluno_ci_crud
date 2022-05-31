@@ -23,7 +23,7 @@ class App extends BaseConfig
      *
      * @var string
      */
-    public $baseURL = 'http://localhost/crud_codeigniter/public/';
+    public $baseURL = 'https://crudcodeignitervinicius.000webhostapp.com/public/';
 
     /**
      * --------------------------------------------------------------------------
