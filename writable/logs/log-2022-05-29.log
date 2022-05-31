@@ -1,0 +1,355 @@
+CRITICAL - 2022-05-29 01:48:02 --> syntax error, unexpected '?>'
+#0 C:\wamp64\www\crud_codeigniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\wamp64\www\crud_codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('clientes/client...', Array, true)
+#2 C:\wamp64\www\crud_codeigniter\app\Controllers\Clientes.php(72): view('clientes/client...')
+#3 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(832): App\Controllers\Clientes->dados()
+#4 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#5 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\crud_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 02:24:45 --> file_get_contents(): Filename cannot be empty
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\wamp64\\www\\c...', 45, Array)
+#1 C:\wamp64\www\crud_codeigniter\app\Controllers\Clientes.php(45): file_get_contents('')
+#2 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(832): App\Controllers\Clientes->cadastro()
+#3 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#4 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\crud_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-29 02:44:35 --> syntax error, unexpected end of file
+#0 C:\wamp64\www\crud_codeigniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\wamp64\www\crud_codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('clientes/client...', Array, true)
+#2 C:\wamp64\www\crud_codeigniter\app\Controllers\Clientes.php(89): view('clientes/client...', Array)
+#3 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(832): App\Controllers\Clientes->listar()
+#4 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#5 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\crud_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 03:44:49 --> Undefined variable: id
+#0 C:\wamp64\www\crud_codeigniter\app\Controllers\Clientes.php(112): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 112, Array)
+#1 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(832): App\Controllers\Clientes->editar('4')
+#2 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#3 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\crud_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-29 03:47:14 --> syntax error, unexpected '=', expecting ';' or ','
+#0 C:\wamp64\www\crud_codeigniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\wamp64\www\crud_codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('clientes/pages_...', Array, true)
+#2 C:\wamp64\www\crud_codeigniter\app\Controllers\Clientes.php(62): view('clientes/pages_...')
+#3 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(832): App\Controllers\Clientes->cadastro()
+#4 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#5 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\crud_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 03:49:19 --> file_get_contents(): Filename cannot be empty
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\wamp64\\www\\c...', 45, Array)
+#1 C:\wamp64\www\crud_codeigniter\app\Controllers\Clientes.php(45): file_get_contents('')
+#2 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(832): App\Controllers\Clientes->cadastro()
+#3 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#4 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\crud_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-29 03:49:28 --> file_get_contents(): Filename cannot be empty
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\wamp64\\www\\c...', 45, Array)
+#1 C:\wamp64\www\crud_codeigniter\app\Controllers\Clientes.php(45): file_get_contents('')
+#2 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(832): App\Controllers\Clientes->cadastro()
+#3 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#4 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\crud_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-29 03:51:35 --> file_get_contents(): Filename cannot be empty
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\wamp64\\www\\c...', 45, Array)
+#1 C:\wamp64\www\crud_codeigniter\app\Controllers\Clientes.php(45): file_get_contents('')
+#2 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(832): App\Controllers\Clientes->cadastro()
+#3 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#4 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\crud_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-29 03:55:26 --> file_get_contents(): Filename cannot be empty
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\wamp64\\www\\c...', 45, Array)
+#1 C:\wamp64\www\crud_codeigniter\app\Controllers\Clientes.php(45): file_get_contents('')
+#2 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(832): App\Controllers\Clientes->cadastro()
+#3 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#4 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\crud_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-29 03:55:43 --> file_get_contents(): Filename cannot be empty
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\wamp64\\www\\c...', 45, Array)
+#1 C:\wamp64\www\crud_codeigniter\app\Controllers\Clientes.php(45): file_get_contents('')
+#2 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(832): App\Controllers\Clientes->cadastro()
+#3 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#4 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\crud_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-29 03:56:53 --> syntax error, unexpected ';', expecting '('
+#0 C:\wamp64\www\crud_codeigniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\wamp64\www\crud_codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('clientes/pages_...', Array, true)
+#2 C:\wamp64\www\crud_codeigniter\app\Controllers\Clientes.php(62): view('clientes/pages_...')
+#3 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(832): App\Controllers\Clientes->cadastro()
+#4 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#5 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\crud_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 04:11:52 --> syntax error, unexpected ')'
+#0 C:\wamp64\www\crud_codeigniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\wamp64\www\crud_codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('clientes/pages_...', Array, true)
+#2 C:\wamp64\www\crud_codeigniter\app\Controllers\Clientes.php(62): view('clientes/pages_...')
+#3 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(832): App\Controllers\Clientes->cadastro()
+#4 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#5 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\crud_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 04:12:06 --> syntax error, unexpected ';'
+#0 C:\wamp64\www\crud_codeigniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\wamp64\www\crud_codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('clientes/pages_...', Array, true)
+#2 C:\wamp64\www\crud_codeigniter\app\Controllers\Clientes.php(62): view('clientes/pages_...')
+#3 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(832): App\Controllers\Clientes->cadastro()
+#4 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#5 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\crud_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 04:12:22 --> file_get_contents(): Filename cannot be empty
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\wamp64\\www\\c...', 45, Array)
+#1 C:\wamp64\www\crud_codeigniter\app\Controllers\Clientes.php(45): file_get_contents('')
+#2 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(832): App\Controllers\Clientes->cadastro()
+#3 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#4 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\crud_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-29 04:19:24 --> Undefined variable: result
+#0 C:\wamp64\www\crud_codeigniter\app\Views\clientes\pages_cadastro.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 11, Array)
+#1 C:\wamp64\www\crud_codeigniter\system\View\View.php(210): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\crud_codeigniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\crud_codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('clientes/pages_...', Array, true)
+#4 C:\wamp64\www\crud_codeigniter\app\Controllers\Clientes.php(62): view('clientes/pages_...')
+#5 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(832): App\Controllers\Clientes->cadastro()
+#6 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#7 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\crud_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-29 04:20:27 --> file_get_contents(): Filename cannot be empty
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\wamp64\\www\\c...', 45, Array)
+#1 C:\wamp64\www\crud_codeigniter\app\Controllers\Clientes.php(45): file_get_contents('')
+#2 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(832): App\Controllers\Clientes->cadastro()
+#3 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#4 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\crud_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-29 04:21:48 --> Undefined variable: var
+#0 C:\wamp64\www\crud_codeigniter\app\Views\clientes\pages_cadastro.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 5, Array)
+#1 C:\wamp64\www\crud_codeigniter\system\View\View.php(210): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\crud_codeigniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\crud_codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('clientes/pages_...', Array, true)
+#4 C:\wamp64\www\crud_codeigniter\app\Controllers\Clientes.php(62): view('clientes/pages_...')
+#5 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(832): App\Controllers\Clientes->cadastro()
+#6 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#7 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\crud_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-29 04:22:19 --> file_get_contents(): Filename cannot be empty
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\wamp64\\www\\c...', 45, Array)
+#1 C:\wamp64\www\crud_codeigniter\app\Controllers\Clientes.php(45): file_get_contents('')
+#2 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(832): App\Controllers\Clientes->cadastro()
+#3 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#4 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\crud_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-29 04:23:53 --> file_get_contents(): Filename cannot be empty
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\wamp64\\www\\c...', 45, Array)
+#1 C:\wamp64\www\crud_codeigniter\app\Controllers\Clientes.php(45): file_get_contents('')
+#2 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(832): App\Controllers\Clientes->cadastro()
+#3 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#4 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\crud_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-29 10:22:03 --> Undefined property: App\Controllers\Clientes::$load
+#0 C:\wamp64\www\crud_codeigniter\app\Controllers\Clientes.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\c...', 12, Array)
+#1 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(809): App\Controllers\Clientes->__construct()
+#2 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\crud_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-29 10:32:27 --> Class 'App\Libraries\BaseController' not found
+#0 C:\wamp64\www\crud_codeigniter\system\Router\Router.php(518): include_once()
+#1 C:\wamp64\www\crud_codeigniter\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('clientes')
+#2 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('clientes')
+#3 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\crud_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-29 10:32:27 --> Class 'App\Libraries\BaseController' not found
+#0 C:\wamp64\www\crud_codeigniter\system\Router\Router.php(518): include_once()
+#1 C:\wamp64\www\crud_codeigniter\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('clientes')
+#2 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('clientes')
+#3 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\crud_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-29 10:32:28 --> Class 'App\Libraries\BaseController' not found
+#0 C:\wamp64\www\crud_codeigniter\system\Router\Router.php(518): include_once()
+#1 C:\wamp64\www\crud_codeigniter\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('clientes')
+#2 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('clientes')
+#3 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\crud_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-29 10:32:28 --> Class 'App\Libraries\BaseController' not found
+#0 C:\wamp64\www\crud_codeigniter\system\Router\Router.php(518): include_once()
+#1 C:\wamp64\www\crud_codeigniter\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('clientes')
+#2 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('clientes')
+#3 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\crud_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-29 10:32:29 --> Class 'App\Libraries\BaseController' not found
+#0 C:\wamp64\www\crud_codeigniter\system\Router\Router.php(518): include_once()
+#1 C:\wamp64\www\crud_codeigniter\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('clientes')
+#2 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('clientes')
+#3 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\crud_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-29 10:32:36 --> Class 'App\Libraries\BaseController' not found
+#0 C:\wamp64\www\crud_codeigniter\system\Router\Router.php(518): include_once()
+#1 C:\wamp64\www\crud_codeigniter\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('clientes')
+#2 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('clientes')
+#3 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\crud_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-29 10:33:07 --> Undefined property: App\Controllers\Clientes::$load
+#0 C:\wamp64\www\crud_codeigniter\app\Controllers\Clientes.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\c...', 14, Array)
+#1 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(809): App\Controllers\Clientes->__construct()
+#2 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\crud_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-29 10:35:56 --> Class 'App\Controllers\Curl' not found
+#0 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(809): App\Controllers\Clientes->__construct()
+#1 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\crud_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-29 10:35:56 --> Class 'App\Controllers\Curl' not found
+#0 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(809): App\Controllers\Clientes->__construct()
+#1 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\crud_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-29 10:35:56 --> Class 'App\Controllers\Curl' not found
+#0 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(809): App\Controllers\Clientes->__construct()
+#1 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\crud_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-29 10:35:56 --> Class 'App\Controllers\Curl' not found
+#0 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(809): App\Controllers\Clientes->__construct()
+#1 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\crud_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-29 10:35:56 --> Class 'App\Controllers\Curl' not found
+#0 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(809): App\Controllers\Clientes->__construct()
+#1 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\crud_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-29 10:35:56 --> Class 'App\Controllers\Curl' not found
+#0 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(809): App\Controllers\Clientes->__construct()
+#1 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\crud_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-29 10:36:01 --> unlink(C:\wamp64\www\crud_codeigniter\writable\debugbar/debugbar_1653835425.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\wamp6...', 'C:\\wamp64\\www\\c...', 74, Array)
+#1 C:\wamp64\www\crud_codeigniter\system\Debug\Toolbar\Collectors\History.php(74): unlink('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\crud_codeigniter\system\Debug\Toolbar.php(487): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1653838528, 20)
+#3 C:\wamp64\www\crud_codeigniter\system\Debug\Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 C:\wamp64\www\crud_codeigniter\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#5 C:\wamp64\www\crud_codeigniter\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#6 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(308): CodeIgniter\Events\Events::trigger('pre_system')
+#7 C:\wamp64\www\crud_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-29 10:37:58 --> unlink(C:\wamp64\www\crud_codeigniter\writable\debugbar/debugbar_1653835476.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\wamp6...', 'C:\\wamp64\\www\\c...', 74, Array)
+#1 C:\wamp64\www\crud_codeigniter\system\Debug\Toolbar\Collectors\History.php(74): unlink('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\crud_codeigniter\system\Debug\Toolbar.php(487): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1653838608, 20)
+#3 C:\wamp64\www\crud_codeigniter\system\Debug\Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 C:\wamp64\www\crud_codeigniter\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#5 C:\wamp64\www\crud_codeigniter\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#6 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(308): CodeIgniter\Events\Events::trigger('pre_system')
+#7 C:\wamp64\www\crud_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-29 10:44:27 --> unlink(C:\wamp64\www\crud_codeigniter\writable\debugbar/debugbar_1653835606.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\wamp6...', 'C:\\wamp64\\www\\c...', 74, Array)
+#1 C:\wamp64\www\crud_codeigniter\system\Debug\Toolbar\Collectors\History.php(74): unlink('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\crud_codeigniter\system\Debug\Toolbar.php(487): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1653839066, 20)
+#3 C:\wamp64\www\crud_codeigniter\system\Debug\Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 C:\wamp64\www\crud_codeigniter\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#5 C:\wamp64\www\crud_codeigniter\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#6 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(308): CodeIgniter\Events\Events::trigger('pre_system')
+#7 C:\wamp64\www\crud_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-29 10:44:38 --> unlink(C:\wamp64\www\crud_codeigniter\writable\debugbar/debugbar_1653835847.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\wamp6...', 'C:\\wamp64\\www\\c...', 74, Array)
+#1 C:\wamp64\www\crud_codeigniter\system\Debug\Toolbar\Collectors\History.php(74): unlink('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\crud_codeigniter\system\Debug\Toolbar.php(487): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1653839075, 20)
+#3 C:\wamp64\www\crud_codeigniter\system\Debug\Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 C:\wamp64\www\crud_codeigniter\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#5 C:\wamp64\www\crud_codeigniter\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#6 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(308): CodeIgniter\Events\Events::trigger('pre_system')
+#7 C:\wamp64\www\crud_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-29 10:46:42 --> Use of undefined constant CURLOPT_RETURNTRANSFRE - assumed 'CURLOPT_RETURNTRANSFRE' (this will throw an Error in a future version of PHP)
+#0 C:\wamp64\www\crud_codeigniter\app\Libraries\Curl.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\wamp64\\www\\c...', 15, Array)
+#1 C:\wamp64\www\crud_codeigniter\app\Controllers\Clientes.php(15): App\Libraries\Curl->consulta('93290470')
+#2 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(809): App\Controllers\Clientes->__construct()
+#3 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#4 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\crud_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-29 13:39:38 --> unlink(C:\wamp64\www\crud_codeigniter\writable\debugbar/debugbar_1653843140.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\wamp6...', 'C:\\wamp64\\www\\c...', 74, Array)
+#1 C:\wamp64\www\crud_codeigniter\system\Debug\Toolbar\Collectors\History.php(74): unlink('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\crud_codeigniter\system\Debug\Toolbar.php(487): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1653849577, 20)
+#3 C:\wamp64\www\crud_codeigniter\system\Debug\Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 C:\wamp64\www\crud_codeigniter\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#5 C:\wamp64\www\crud_codeigniter\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#6 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(308): CodeIgniter\Events\Events::trigger('pre_system')
+#7 C:\wamp64\www\crud_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-29 16:16:29 --> Invalid file: home.php
+#0 C:\wamp64\www\crud_codeigniter\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home.php')
+#1 C:\wamp64\www\crud_codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#2 C:\wamp64\www\crud_codeigniter\app\Controllers\Main.php(15): view('home')
+#3 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(832): App\Controllers\Main->index()
+#4 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#5 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\crud_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 16:17:07 --> Invalid file: home.php
+#0 C:\wamp64\www\crud_codeigniter\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home.php')
+#1 C:\wamp64\www\crud_codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#2 C:\wamp64\www\crud_codeigniter\app\Controllers\Main.php(15): view('home')
+#3 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(832): App\Controllers\Main->index()
+#4 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#5 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\crud_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 16:36:12 --> syntax error, unexpected '}'
+#0 C:\wamp64\www\crud_codeigniter\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('clientes/cadast...')
+#1 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('clientes/cadast...')
+#2 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\crud_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-29 16:53:46 --> Undefined property: stdClass::$cep
+#0 C:\wamp64\www\crud_codeigniter\app\Views\clientes\clientes_listar.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\c...', 26, Array)
+#1 C:\wamp64\www\crud_codeigniter\system\View\View.php(210): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\crud_codeigniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\crud_codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('clientes/client...', Array, true)
+#4 C:\wamp64\www\crud_codeigniter\app\Controllers\Clientes.php(76): view('clientes/client...', Array)
+#5 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(832): App\Controllers\Clientes->listar()
+#6 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#7 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\crud_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

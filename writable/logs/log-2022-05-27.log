@@ -1,0 +1,18 @@
+CRITICAL - 2022-05-27 22:48:36 --> Invalid file: templates/header.php
+#0 C:\wamp64\www\crud_codeigniter\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/heade...')
+#1 C:\wamp64\www\crud_codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#2 C:\wamp64\www\crud_codeigniter\app\Controllers\Listar.php(17): view('templates/heade...')
+#3 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(832): App\Controllers\Listar->index()
+#4 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Listar))
+#5 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\crud_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-27 23:59:26 --> Invalid file: templates/header.php
+#0 C:\wamp64\www\crud_codeigniter\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/heade...')
+#1 C:\wamp64\www\crud_codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#2 C:\wamp64\www\crud_codeigniter\app\Controllers\Listar.php(17): view('templates/heade...')
+#3 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(832): App\Controllers\Listar->index()
+#4 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Listar))
+#5 C:\wamp64\www\crud_codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\crud_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
