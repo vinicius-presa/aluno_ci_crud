@@ -1,4 +1,4 @@
-# 🕖 App super Gestão
+# Aluno_ci_crud
 
 <div align="center">
 <img src="https://github.com/vinicius-presa/app_super_gestao_laravel/blob/master/public/img/logo.png" width="100" />
