@@ -48,5 +48,5 @@ Aluno e um sistema para cadastro e visualização de alunos, permitindo upload d
 
 ## 💎 Links úteis 💎
 
-- [Repositorio (https://github.com/vinicius-presa/app_super_gestao_laravel)
+- [Repositorio (https://github.com/vinicius-presa/aluno_ci_crud)
  
